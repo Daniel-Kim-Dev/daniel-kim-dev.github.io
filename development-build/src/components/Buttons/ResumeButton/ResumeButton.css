@@ -1,0 +1,38 @@
+.ResumeButton {
+  display: flex;
+  align-items: center;
+  background-color: #3B945E;
+  color: #F2F2F2;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border: 2px solid #57BA98;
+  border-radius: 7px;
+  padding: 13px 15px;
+  transition: 0.3s;
+}
+
+.ResumeButton:hover:not(.SideNavMenuResumeButton) {
+  background-color: #57BA98;
+}
+
+.IntroductionResumeButton {
+  border-radius: 30px;
+  padding: 15px 25px;
+}
+
+.NavMenuResumeButton {
+  margin-left: 40px;
+}
+
+.SideNavMenuResumeButton {
+  font-size: 20px;
+  border: none;
+  margin-top: 50px;
+}
+
+@media only screen and (min-width: 500px) {
+  .IntroductionResumeButton {
+    margin-right: 50px;
+  }
+}

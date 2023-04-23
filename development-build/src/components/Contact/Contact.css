@@ -1,0 +1,31 @@
+#Contact {
+  text-align: center;
+  max-width: 600px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.ContactHeading {
+  position: relative;
+  font-family: 'Merriweather', serif;
+  color: #3B945E;
+  visibility: hidden;
+}
+
+.ContactHeading.Animated {
+  animation: fadeInFromLeft 1s ease-out;
+  visibility: visible;
+}
+
+.ContactParagraph {
+  position: relative;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #F2F2F2;
+  visibility: hidden;
+}
+
+.ContactParagraph.Animated {
+  animation: fadeInFromRight 1s ease-out;
+  visibility: visible;
+}

@@ -1,0 +1,35 @@
+.ContactButton {
+  display: flex;
+  align-items: center;
+  background-color: #3B945E;
+  color: #F2F2F2;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border: 2px solid #57BA98;
+  border-radius: 30px;
+  padding: 15px 25px;
+  transition: 0.3s;
+}
+
+.ContactButton:hover {
+  background-color: #57BA98;
+}
+
+.ContactContactButton {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  visibility: hidden;
+}
+
+.ContactContactButton.Animated {
+  animation: fadeInFromBottom 1s ease-out;
+  visibility: visible;
+}
+
+@media only screen and (min-width: 500px) {
+  .IntroductionContactButton {
+    margin-left: 50px;
+  }
+}

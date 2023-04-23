@@ -1,0 +1,52 @@
+{"projects":[
+  {
+    "id":"1",
+    "name":"Royale Profile",
+    "image":"royale-profile.png",
+    "website":"https://royaleprofile.azurewebsites.net",
+    "description":"Clash Royale is a real-time strategy mobile game. This React app uses an Express back end to fetch various player information using the Clash Royale API. It will display player data such as their badges, current deck, and battle statistics. The player's cards are shown in descending order by level and cards they have not found if there are any. The app also uses React Router to enable client-side routing.",
+    "technologyStack":[
+      "React",
+      "Express",
+      "React Router",
+      "REST API"
+    ],
+    "gitHubLink":"https://github.com/Daniel-Kim-Dev/royale-profile"
+  },
+  {
+    "id":"2",
+    "name":"Chess Game",
+    "image":"chess.png",
+    "description":"Chess game developed in Java using the JavaFX library for the GUI. It uses the Serializable interface to save the state of the game to a file and load that file to continue where it was left off.",
+    "technologyStack":[
+      "Java",
+      "JavaFX"
+    ],
+    "gitHubLink":"https://github.com/Daniel-Kim-Dev/chess-game"
+  },
+  {
+    "id":"3",
+    "name":"Santa's List",
+    "image":"santas-list.png",
+    "description":"Android mobile application showing a ListView of all the people on Santa's List. User can add, delete, edit, and search a person on the list. Everyone's information is stored on a SQLite database.",
+    "technologyStack":[
+      "Android",
+      "Java",
+      "SQLite"
+    ],
+    "gitHubLink":"https://github.com/Daniel-Kim-Dev/santas-list"
+  },
+  {
+    "id":"4",
+    "name":"Culture Block",
+    "image":"culture-block.png",
+    "description":"Android mobile application showcasing the cultural points of interest in New Westminster. It pulls data from JSON files and displays them in a ListView. Also, it implements the Mapbox SDK to show the location on a map.",
+    "technologyStack":[
+      "Android",
+      "Java",
+      "Mapbox SDK"
+    ],
+    "gitHubLink":"https://github.com/Daniel-Kim-Dev/culture-block"
+  }
+  ]
+}

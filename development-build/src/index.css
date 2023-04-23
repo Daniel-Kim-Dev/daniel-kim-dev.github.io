@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #65CCB8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes fadeInFromTop {
+  0%   {opacity: 0; bottom: 50px;}
+  100% {opacity: 1; bottom: 0;}
+}
+
+@keyframes fadeInFromRight {
+  0%   {opacity: 0; left: 50px;}
+  100% {opacity: 1; left: 0;}
+}
+
+@keyframes fadeInFromBottom {
+  0%   {opacity: 0; top: 50px;}
+  100% {opacity: 1; top: 0;}
+}
+
+@keyframes fadeInFromLeft {
+  0%   {opacity: 0; right: 50px;}
+  100% {opacity: 1; right: 0;}
+}

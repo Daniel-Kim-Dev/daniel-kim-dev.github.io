@@ -1,0 +1,48 @@
+.NavBar {
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(101, 204, 184, 0.9);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1;
+}
+
+.Logo {
+  position: relative;
+  padding: 10px 20px;
+  visibility: hidden;
+}
+
+.Logo.Animated {
+  animation: fadeInFromTop 1s ease-out;
+  visibility: visible;
+}
+
+.NavMenu {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 20px;
+  visibility: hidden;
+}
+
+.NavMenu.Animated {
+  animation: fadeInFromTop 1s ease-out;
+  visibility: visible;
+}
+
+.NavMenu a:not(:last-child) {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #F2F2F2;
+  margin-left: 40px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.NavMenu a:hover:not(:last-child) {
+  color: #3B945E;
+}

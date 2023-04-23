@@ -1,0 +1,35 @@
+.ProjectCover {
+  display: flex;
+  position: relative;
+  width: 45%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ProjectCover:hover {
+  opacity: 0.7;
+}
+
+.ProjectImage {
+  width: 100%;
+  align-self: center;
+}
+
+.ProjectNameContainer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(24, 38, 40, 0.85);
+}
+
+.ProjectName {
+  color: #57BA98;
+  font-family: 'Merriweather', serif;
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 500px) {
+  .ProjectCover {
+    width: 190px;
+  }
+}

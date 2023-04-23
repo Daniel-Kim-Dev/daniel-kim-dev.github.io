@@ -1,0 +1,73 @@
+.Introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.IntroductionHeading {
+  position: relative;
+  font-family: 'Merriweather', serif;
+  font-size: clamp(20px, 9vw, 50px);
+  color: #F2F2F2;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  visibility: hidden;
+}
+
+.IntroductionHeading.Animated {
+  animation: fadeInFromLeft 1s ease-out;
+  visibility: visible;
+}
+
+.IntroductionHeading2 {
+  position: relative;
+  font-family: 'Merriweather', serif;
+  font-size: clamp(20px, 6.9vw, 50px);
+  color: #F2F2F2;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 20px;
+  visibility: hidden;
+}
+
+.IntroductionHeading2.Animated {
+  animation: fadeInFromRight 1s ease-out;
+  visibility: visible;
+}
+
+.IntroductionParagraph {
+  position: relative;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #F2F2F2;
+  max-width: 600px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 20px;
+  visibility: hidden;
+}
+
+.IntroductionParagraph.Animated {
+  animation: fadeInFromLeft 1s ease-out;
+  visibility: visible;
+}
+
+.ResumeAndContactButtons {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  visibility: hidden;
+}
+
+.ResumeAndContactButtons.Animated {
+  animation: fadeInFromBottom 1s ease-out;
+  visibility: visible;
+}
+
+@media only screen and (min-width: 500px) {
+  .ResumeAndContactButtons {
+    justify-content: center;
+  }
+}

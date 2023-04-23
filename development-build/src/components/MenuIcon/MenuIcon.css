@@ -1,0 +1,61 @@
+.MenuIconContainer {
+  position: fixed;
+  top: 17px;
+  right: 20px;
+  z-index: 3;
+}
+
+.MenuIcon {
+  position: relative;
+  visibility: hidden;
+}
+
+.MenuIcon.Animated {
+  animation: fadeInFromTop 1s ease-out;
+  visibility: visible;
+}
+
+.Bar1 {
+  width: 28px;
+  height: 4px;
+  margin-bottom: 6px;
+  padding: 1px;
+  background-color: #182628;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.Bar2 {
+  width: 40px;
+  height: 4px;
+  margin-bottom: 6px;
+  padding: 1px;
+  background-color: #182628;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.Bar3 {
+  width: 28px;
+  height: 4px;
+  margin-left: auto;
+  padding: 1px;
+  background-color: #182628;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.Change .Bar1 {
+  transform: rotateZ(360deg) rotate(-45deg) translate(-9px, 9px);
+  width: 40px;
+}
+
+.Change .Bar2 {
+  transform: rotateZ(360deg);
+  opacity: 0;
+}
+  
+.Change .Bar3 {
+  transform: rotateZ(-360deg) rotate(45deg) translate(-8px, -8px);
+  width: 40px;
+}

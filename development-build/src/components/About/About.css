@@ -1,0 +1,86 @@
+#About {
+  max-width: 600px;
+  padding-top: 70px;
+}
+
+.AboutHeading {
+  position: relative;
+  font-family: 'Merriweather', serif;
+  color: #3B945E;
+  margin-block-start: 0;
+  visibility: hidden;
+}
+
+.AboutHeading.Animated {
+  animation: fadeInFromLeft 1s ease-out;
+  visibility: visible;
+}
+
+.AboutParagraph {
+  position: relative;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #F2F2F2;
+  visibility: hidden;
+}
+
+.AboutParagraph.Animated {
+  animation: fadeInFromRight 1s ease-out;
+  visibility: visible;
+}
+
+.AboutParagraph2 {
+  position: relative;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #F2F2F2;
+  visibility: hidden;
+}
+
+.AboutParagraph2.Animated {
+  animation: fadeInFromLeft 1s ease-out;
+  visibility: visible;
+}
+
+.AboutParagraph3 {
+  position: relative;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #F2F2F2;
+  visibility: hidden;
+}
+
+.AboutParagraph3.Animated {
+  animation: fadeInFromRight 1s ease-out;
+  visibility: visible;
+}
+
+ul {
+  list-style: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+ul li::before {
+  content: "\25A0";
+  color: #3B945E;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-bottom: 10px;
+  margin-left: -1em;
+}
+
+.AboutParagraph4 {
+  position: relative;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #F2F2F2;
+  visibility: hidden;
+}
+
+.AboutParagraph4.Animated {
+  animation: fadeInFromLeft 1s ease-out;
+  visibility: visible;
+}

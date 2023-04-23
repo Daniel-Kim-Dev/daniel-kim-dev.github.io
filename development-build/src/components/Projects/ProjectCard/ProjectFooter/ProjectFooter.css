@@ -1,0 +1,28 @@
+.ProjectFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(211, 211, 211, 0.5);
+}
+
+.TechnologyStack {
+  height: 40px;
+  line-height: 42px;
+  overflow: hidden;
+}
+
+.TechnologyStack::before {
+  display: inline-block;
+  content: '';
+}
+
+.Technology {
+  display: inline-block;
+  line-height: 25px;
+  background-color: #3B945E;
+  border-radius: 15px;
+  color: #F2F2F2;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10px;
+  padding: 0 10px;
+}

@@ -1,0 +1,27 @@
+.SideNavMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background-color: #57BA98;
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.SideNavMenu.Open {
+  width: 250px;
+}
+
+.SideNavMenu a:not(:last-child) {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: #F2F2F2;
+  margin: 15px 0;
+  text-decoration: none;
+}

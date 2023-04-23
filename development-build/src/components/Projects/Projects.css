@@ -1,0 +1,25 @@
+#Projects {
+  max-width: 1305px;
+  padding-top: 70px;
+  margin-top: 100px;
+}
+
+.ProjectCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ProjectsHeading {
+  position: relative;
+  flex-basis: 100%;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  color: #3B945E;
+  visibility: hidden;
+}
+
+.ProjectsHeading.Animated {
+  animation: fadeInFromLeft 1s ease-out;
+  visibility: visible;
+}
