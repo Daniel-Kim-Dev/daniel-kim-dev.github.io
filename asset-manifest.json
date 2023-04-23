@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7a8c16c2.css",
+    "main.js": "./static/js/main.d5db9da0.js",
+    "static/media/culture-block.png": "./static/media/culture-block.fe12637cbe2011eca497.png",
+    "static/media/royale-profile.png": "./static/media/royale-profile.5c1abb4f09e0536d6f05.png",
+    "static/media/Resume.pdf": "./static/media/Resume.b744efcde4d30e9a431d.pdf",
+    "static/media/chess.png": "./static/media/chess.8306957f594fe0c8685b.png",
+    "static/media/santas-list.png": "./static/media/santas-list.b3ebfb58107e62ac426c.png",
+    "service-worker.js": "./service-worker.js",
+    "index.html": "./index.html",
+    "static/media/MailIcon.svg": "./static/media/MailIcon.e892c423f4b00c039f449659d71eff9f.svg",
+    "static/media/DownloadIcon.svg": "./static/media/DownloadIcon.82a9c114b5a23317e51ca9cce5dce32b.svg",
+    "main.7a8c16c2.css.map": "./static/css/main.7a8c16c2.css.map",
+    "main.d5db9da0.js.map": "./static/js/main.d5db9da0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a8c16c2.css",
+    "static/js/main.d5db9da0.js"
+  ]
+}
